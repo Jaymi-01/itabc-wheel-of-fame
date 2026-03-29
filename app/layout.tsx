@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wheel of Fame",
-  description: "Choosing the Book of the Month with an unbiased wheel.",
+  title: "ITABC Wheel of Fame",
+  description: "Choosing the Book of the Month with A Roulette Because We Can't Make Up Our Minds.",
 };
 
 export default function RootLayout({
