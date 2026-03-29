@@ -88,6 +88,7 @@ const Wheel: React.FC<WheelProps> = ({ options, rotation, isSpinning }) => {
                 fill="white"
                 fontSize="12"
                 fontWeight="bold"
+                fontFamily="var(--font-playfair)"
                 textAnchor="start"
                 transform={`rotate(${seg.labelAngle + 90}, ${center + (radius * 0.85) * Math.cos((seg.labelAngle - 90) * (Math.PI / 180))}, ${center + (radius * 0.85) * Math.sin((seg.labelAngle - 90) * (Math.PI / 180))})`}
                 className="select-none pointer-events-none drop-shadow-sm"
