@@ -265,7 +265,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-[#EBD48F] text-[#141935] font-sans p-4 sm:p-6 md:p-8">
+    <div className="min-h-screen bg-[#EBD48F] text-[#141935] font-serif p-4 sm:p-6 md:p-8">
       <header className="max-w-6xl mx-auto flex justify-start mb-4 sm:mb-0">
         <div className="relative w-16 h-16 sm:w-24 sm:h-24 rounded-full overflow-hidden bg-white/30 shadow-lg border-2 border-white/40">
           <Image
