@@ -1,0 +1,11 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // This rule allows anyone with your API key to read and write
+    // to the 'wheel_options' collection.
+    match /wheel_options/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
